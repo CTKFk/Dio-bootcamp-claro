@@ -1,3 +1,4 @@
+
 public class iPhone implements reprodutorMusical, aparelhoTelefonico, navegadorInternet {
     
     // Implementação dos métodos da interface ReprodutorMusical
