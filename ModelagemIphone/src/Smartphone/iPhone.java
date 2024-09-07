@@ -40,6 +40,7 @@ public class iPhone implements reprodutorMusical, aparelhoTelefonico, navegadorI
         System.out.println("Navegando para " + url);
     }
 
+    
     @Override
     public void refreshPage() {
         System.out.println("Página recarregada.");
