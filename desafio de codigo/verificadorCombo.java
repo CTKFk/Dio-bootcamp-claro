@@ -14,11 +14,17 @@ public class verificadorCombo {
         for (String servico : servicosContratados) {
                String servicoNormalizado = servico.trim().toLowerCase(); // Normaliza a string para comparação
             switch (servicoNormalizado) {
-                case "movel" -> movelContratado = true;
-                case "banda larga" -> bandaLargaContratada = true;
-                case "tv" -> tvContratada = true;
-                default -> {
-                }
+                case "movel":
+                    movelContratado = true;
+                    break;
+                case "banda larga":
+                    bandaLargaContratada = true;
+                    break;
+                case "tv":
+                    tvContratada = true;
+                    break;
+                default:
+                    break;
             }
         }
         // TODO: Verifique se todos os serviços foram contratados
